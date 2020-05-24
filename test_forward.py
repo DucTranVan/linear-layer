@@ -2,6 +2,8 @@ import argparse
 import linear
 import numpy as np 
 
+
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--mode',type=int, default=0,
                     help='type of implementation to test, 0 for python list implement, other for numpy array implement')
